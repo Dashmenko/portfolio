@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+  <link rel="stylesheet" href="css/styleguide.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+  <div class="home">
+    <div class="media">
+      <img class="media__line" src="https://c.animaapp.com/r2aK7hMD/img/line-10--stroke--1.svg" alt="media-line">
+      <div class="media__icons">
+        <a onclick="javascript:location.reload(); return false;"><i class="fa fa-refresh fa-2x"
+            aria-hidden="true"></i></a>
+        <a onclick="javascript:history.back(); return false;"><i class="fa fa-arrow-left fa-2x"
+            aria-hidden="true"></i></a>
+        <a onclick="javascript:history.forward(); return false;"><i class="fa fa-arrow-right fa-2x"
+            aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <header class="header">
+      <a href="#" class="header__home">
+        <div class="logo"></div>
+        <div class="header__name">Daria</div>
+      </a>
+      <div class="header__links" id="header__links">
+        <a href="./index.html" id="active">
+          <div class="header__link header__hashtag active">#<span class="text__info text__info-hover">home</span></div>
+        </a>
+        <a href="./projects.html">
+          <div class="header__link header__hashtag">#<span class="text__info text__info-hover">works</span></div>
+        </a>
+        <a href="./about.html">
+          <div class="header__link header__hashtag">#<span class="text__info text__info-hover">about-me</span></div>
+        </a>
+        <a href="./contacts.html">
+          <div class="header__link header__hashtag">#<span class="text__info text__info-hover">contacts</span></div>
+        </a>
+
+        <form action="/search" method="get">
+          <input class="place_for_search" name="q" id="search" type="text" placeholder="Search...">
+          <button type="submit" class="search" title="Start searching"></button>
+        </form>
+      </div>
+    </header>
+
+    <div class="first">
+      <div class="first__info">
+        <p class="first__title">
+          <span class="first__title-name">Daria is a </span>
+          <span class="first__title-job">front-end developer</span>
+        </p>
+        <p class="first__title-slogo">She crafts responsive websites where technologies meet creativity</p>
+        <a class="first__title-btn" href="./contacts.html">Contact me!!</a>
+      </div>
+      <div class="first__images">
+        <div class="first__images-logo">
+          <img class="first__bg-logo" src="img/Union.svg" alt="logo">
+        </div>
+        <img class="first__images-photo" src="img/first.png" alt="photo">
+        <img src="img/Dots.svg" class="dots" alt="dots">
+      </div>
+      <div class="first__currently">
+        <div class="first__rectangle"></div>
+        <p class="first__currently-work">Currently working on <span class="first__currently-portfolio">Portfolio</span>
+        </p>
+      </div>
+    </div>
+
+    <main class="main">
+
+      <div class="main__contact">
+        <div class="main__contact-title">
+          <div class="header__link">
+            <div class="main__hashtag">#</div>
+            <div class="main__article">contacts</div>
+          </div>
+          <img class="line-stroke" src="https://c.animaapp.com/r2aK7hMD/img/line-7--stroke--5.svg" alt="line">
+        </div>
+        <div class="main__contact-text">
+          I’m interested in freelance opportunities. However, if you have other request or question, don’t
+          hesitate to contact me
+        </div>
+        <div class="main__contact_info">
+          <div class="main__contact_info-text">Message me here</div>
+          <div class="main__contact_info_address">
+            <div class="main__contact_info-mail">
+              <img class="img" src="https://c.animaapp.com/r2aK7hMD/img/discord-3.svg" alt="discord">
+              <div class="main__contact_info_mail-text">dorinka#5893</div>
+              <img class="copy__img" src="img/copy.png" title="click to copy" id="copy_discord" alt="copy">
+            </div>
+            <div class="main__contact_info-mail">
+              <img class="img" src="https://c.animaapp.com/r2aK7hMD/img/email-1.svg" alt="mail">
+              <div class="main__contact_info_mail-text">dashmenko@gmail.com</div>
+              <img class="copy__img" src="/img/copy.png" title="click to copy" id="copy_mail" alt="copy">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__about">
+        <div class="main__about_info">
+          <p class="main__about_info-text">
+            Hello, i’m Daria!<br><br>I’m a self-taught front-end developer based in Vitebsk, Belarus. I can develop
+            responsive websites from scratch and raise them into modern user-friendly web experiences.
+            <br><br>Transforming my creativity and knowledge into a websites has been my passion for over a
+            year. I have been helping various clients to establish their presence online. I always strive to learn
+            about the newest technologies and frameworks.
+          </p>
+          <a class="main__about_info-button text__info-big" href="./about.html">Read more -&gt;</a>
+        </div>
+        <div class="main__about_title">
+          <div class="header__link">
+            <div class="main__hashtag">#</div>
+            <div class="main__article">about-me</div>
+          </div>
+          <img class="line-stroke" src="https://c.animaapp.com/r2aK7hMD/img/line-7--stroke--4.svg" alt="line">
+        </div>
+        <div class="main__about_img">
+          <div class="main__about_img-photo">
+            <img class="image" src="img/about.png" alt="photo">
+          </div>
+          <img src="img/Dots.svg" class="dots_1" alt="dots">
+          <img src="img/Dots.svg" class="dots-2" alt="dots">
+        </div>
+      </div>
+
+      <div class="main__skills">
+        <div class="main__skills_title">
+          <div class="header__link">
+            <div class="main__hashtag">#</div>
+            <div class="main__article">skills</div>
+          </div>
+          <img class="line-stroke" src="https://c.animaapp.com/r2aK7hMD/img/line-7--stroke--2.svg" alt="line">
+        </div>
+        <img class="main__skills-bg" src="img/skills_bg.svg" alt="skills_bg">
+        <div class="main__skills_technology">
+          <div class="main__skills_technology-lang">
+            <div class="name__technology">
+              <div class="main__contact_info-text">Languages</div>
+            </div>
+            <div class="name__technology_list">
+              <div class="name__technology_list-item">
+                <div class="text__info">TypeScript</div>
+                <div class="text__info">C#</div>
+              </div>
+              <div class="name__technology_list-item">
+                <div class="text__info">Java</div>
+                <div class="text__info">JavaScript</div>
+              </div>
+            </div>
+          </div>
+          <div class="main__skills_technology-db">
+            <div class="name__technology">
+              <div class="main__contact_info-text">Databases</div>
+            </div>
+            <div class="name__technology_list">
+              <div class="name__technology_list-item">
+                <div class="text__info">MySQL</div>
+                <div class="text__info">Mongo</div>
+              </div>
+              <div class="name__technology_list-item">
+                <div class="text__info">MS SQL Server</div>
+              </div>
+            </div>
+          </div>
+          <div class="main__skills_technology-frameworks">
+            <div class="name__technology">
+              <div class="main__contact_info-text">Frameworks</div>
+            </div>
+            <div class="name__technology_list">
+              <div class="name__technology_list-item">
+                <div class="text__info">React</div>
+                <div class="text__info">Vue</div>
+              </div>
+              <div class="name__technology_list-item">
+                <div class="text__info">Angular</div>
+              </div>
+            </div>
+          </div>
+          <div class="main__skills_technology-other">
+            <div class="name__technology">
+              <div class="main__contact_info-text">Other</div>
+            </div>
+            <div class="name__technology_list">
+              <div class="name__technology_list-item">
+                <div class="text__info">HTML</div>
+                <div class="text__info">CSS</div>
+                <div class="text__info">SCSS</div>
+              </div>
+              <div class="name__technology_list-item">
+                <div class="text__info">SASS</div>
+              </div>
+            </div>
+          </div>
+          <div class="main__skills_technology-tools">
+            <div class="name__technology">
+              <div class="main__contact_info-text">Tools</div>
+            </div>
+            <div class="name__technology_list">
+              <div class="name__technology_list-item">
+                <div class="text__info">VSCode</div>
+                <div class="text__info">WebStorm</div>
+                <div class="text__info">Figma</div>
+              </div>
+              <div class="name__technology_list-item">
+                <div class="text__info">Node.js</div>
+                <div class="text__info">PS</div>
+                <div class="text__info">GitHub</div>
+              </div>
+              <div class="name__technology_list-item new_item">
+                <div class="text__info">Git</div>
+                <div class="text__info">FontAwesome</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main__projects">
+        <div class="main__projects_container">
+          <div class="main__projects_container-item">
+            <img class="main__projects_container_item-preview" src="img/project_1.svg" alt="project1">
+            <div class="main__projects_container_item-stack">
+              <div class="text__info">HTML</div>
+              <div class="text__info">CSS</div>
+              <div class="text__info">JavaScript</div>
+            </div>
+            <div class="main__projects_container_item_about">
+              <div class="main__projects_container_item_about-name">House of Gambling</div>
+              <div class="main__projects_container_item_about-desc">Landing</div>
+              <div class="main__projects_container_item_about_buttons">
+                <div class="main__projects_container_item_about_buttons-live">
+                  <a href="https://dashmenko.github.io/house_of_gambling/" target="_blank" class="text__info-big">Live
+                    &lt;~&gt;</a>
+                </div>
+                <div class="main__projects_container_item_about_buttons-view">
+                  <a href="https://github.com/Dashmenko/house_of_gambling" target="_blank" class="demo">View code
+                    &gt;=</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main__projects_container-item">
+            <img class="main__projects_container_item-preview" src="img/project_2.svg" alt="ptoject2">
+            <div class="main__projects_container_item-stack">
+              <div class="text__info">HTML</div>
+              <div class="text__info">SCSS</div>
+              <div class="text__info">JavaScript</div>
+            </div>
+            <div class="main__projects_container_item_about">
+              <div class="main__projects_container_item_about-name">SOS</div>
+              <div class="main__projects_container_item_about-desc">The game's landing page</div>
+              <div class="main__projects_container_item_about_buttons">
+                <div class="main__projects_container_item_about_buttons-live">
+                  <a href="https://dashmenko.github.io/sos/" target="_blank" class="text__info-big">Live
+                    &lt;~&gt;</a>
+                </div>
+                <div class="main__projects_container_item_about_buttons-view">
+                  <a href="https://github.com/Dashmenko/sos" target="_blank" class="demo">View code
+                    &gt;=</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main__projects_container-item">
+            <img class="main__projects_container_item-preview" src="img/project_3.svg" alt="project3">
+            <div class="main__projects_container_item-stack">
+              <div class="text__info">Angular</div>
+              <div class="text__info">CSS</div>
+              <div class="text__info">TypeScript</div>
+              <div class="text__info">Node.js</div>
+            </div>
+            <div class="main__projects_container_item_about">
+              <div class="main__projects_container_item_about-name">Burger House</div>
+              <p class="main__projects_container_item_about-desc">Burger order page</p>
+              <div class="main__projects_container_item_about_buttons">
+                <div class="main__projects_container_item_about_buttons-live">
+                  <a href="https://dashmenko.github.io/burgers/" target="_blank" class="text__info-big">Live
+                    &lt;~&gt;
+                  </a>
+                </div>
+                <div class="main__projects_container_item_about_buttons-view">
+                  <a href="https://github.com/Dashmenko/burgers" target="_blank" class="demo">View code
+                    &gt;=</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="main__projects_title">
+          <div class="main__projects_name">
+            <div class="header__link">
+              <div class="main__hashtag">#</div>
+              <div class="main__article">projects</div>
+            </div>
+            <img class="line-stroke" src="https://c.animaapp.com/r2aK7hMD/img/line-7--stroke--1.svg" alt="line">
+          </div>
+          <a href="./projects.html" class="view-all">View all ~~&gt;</a>
+        </div>
+      </div>
+
+      <div class="main__quote">
+        <p class="main__quote-text">With great power comes great electricity bill</p>
+        <img class="main__quote-marks" src="https://c.animaapp.com/r2aK7hMD/img/frame-49.svg" alt="quote-marks">
+        <div class="main__quote-author">- Dr. Who</div>
+        <img class="main__quote-marks main__quote-marks-author" src="https://c.animaapp.com/r2aK7hMD/img/frame-49.svg"
+          alt="quote-marks">
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__info">
+          <div class="footer__data">
+            <div class="footer__data-mail">
+              <div class="footer__data-name">
+                <div class="logo"></div>
+                <div class="text__info-big">Daria</div>
+              </div>
+              <div class="text__info">dashmenko@gmail.com</div>
+            </div>
+            <p class="footer__data-job">Front-end developer</p>
+          </div>
+          <div class="footer__media">
+            <div class="footer__media-title">Media</div>
+            <div class="footer__media-links">
+              <a href="https://github.com/Dashmenko" target="_blank"><img class="github"
+                  src="https://c.animaapp.com/r2aK7hMD/img/github-4.svg" alt="github"></a>
+              <img class="figma" src="https://c.animaapp.com/r2aK7hMD/img/figma-4.svg" alt="figma">
+              <a href="https://discordapp.com/users/843226588904816660" target="_blank"><img class="discord"
+                  src="https://c.animaapp.com/r2aK7hMD/img/discord-3.svg" alt="discord"></a>
+            </div>
+          </div>
+        </div>
+        <p class="footer__copy">&copy; Copyright 2023. Made by Daria</p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>

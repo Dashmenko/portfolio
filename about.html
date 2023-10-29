@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link rel="stylesheet" href="css/styleguide.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="home">
+        <div class="media">
+            <img class="media__line" src="https://c.animaapp.com/r2aK7hMD/img/line-10--stroke--1.svg" alt="line">
+            <div class="media__icons">
+                <a onclick="javascript:location.reload(); return false;"><i class="fa fa-refresh fa-2x"
+                        aria-hidden="true"></i></a>
+                <a onclick="javascript:history.back(); return false;"><i class="fa fa-arrow-left fa-2x"
+                        aria-hidden="true"></i></a>
+                <a onclick="javascript:history.forward(); return false;"><i class="fa fa-arrow-right fa-2x"
+                        aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <header class="header">
+            <a href="#" class="header__home">
+                <div class="logo"></div>
+                <div class="header__name">Daria</div>
+            </a>
+            <div class="header__links" id="header__links">
+                <a href="./index.html">
+                    <div class="header__link header__hashtag ">#<span class="text__info text__info-hover">home</span>
+                    </div>
+                </a>
+                <a href="./projects.html">
+                    <div class="header__link header__hashtag">#<span class="text__info text__info-hover">works</span>
+                    </div>
+                </a>
+                <a href="./about.html" id="active">
+                    <div class="header__link header__hashtag active">#<span
+                            class="text__info text__info-hover">about-me</span>
+                    </div>
+                </a>
+                <a href="./contacts.html">
+                    <div class="header__link header__hashtag">#<span class="text__info text__info-hover">contacts</span>
+                    </div>
+                </a>
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <button type="submit" class="search"></button>
+                </form>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__about" id="main__about">
+                <div class="main__about_title">
+                    <div class="header__link">
+                        <div class="main__hashtag">/</div>
+                        <div class="main__article">about-me</div>
+                    </div>
+                    <div class="main__question">Who am i?</div>
+                </div>
+                <div class="main__about_info">
+                    <p class="main__about_info-text">
+                        Hello, i’m Daria!<br><br>I’m a self-taught front-end developer based in Vitebsk, Belarus. I
+                        can develop
+                        responsive websites from scratch and raise them into modern user-friendly web experiences.
+                        <br><br>Transforming my creativity and knowledge into a websites has been my passion for
+                        over a
+                        year. I have been helping various clients to establish their presence online. I always strive to
+                        learn
+                        about the newest technologies and frameworks.
+                    </p>
+                </div>
+                <div class="main__about_img">
+                    <div class="main__about_img-photo">
+                        <img class="image" src="img/about.png" alt="photo">
+                    </div>
+                    <img src="img/Dots.svg" class="dots_1" alt="dots">
+                    <img src="img/Dots.svg" class="dots-2" alt="dots">
+                </div>
+            </div>
+
+            <div class="main__skills">
+                <div class="main__skills_title">
+                    <div class="header__link">
+                        <div class="main__hashtag">#</div>
+                        <div class="main__article">skills</div>
+                    </div>
+                </div>
+                <div class="main__skills_technology">
+                    <div class="main__skills_technology-lang">
+                        <div class="name__technology">
+                            <div class="main__contact_info-text">Languages</div>
+                        </div>
+                        <div class="name__technology_list">
+                            <div class="name__technology_list-item">
+                                <div class="text__info">TypeScript</div>
+                                <div class="text__info">C#</div>
+                            </div>
+                            <div class="name__technology_list-item">
+                                <div class="text__info">Java</div>
+                                <div class="text__info">JavaScript</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__skills_technology-other">
+                        <div class="name__technology">
+                            <div class="main__contact_info-text">Other</div>
+                        </div>
+                        <div class="name__technology_list">
+                            <div class="name__technology_list-item">
+                                <div class="text__info">HTML</div>
+                                <div class="text__info">CSS</div>
+                                <div class="text__info">SCSS</div>
+                            </div>
+                            <div class="name__technology_list-item">
+                                <div class="text__info">ES6</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__skills_technology-tools">
+                        <div class="name__technology">
+                            <div class="main__contact_info-text">Tools</div>
+                        </div>
+                        <div class="name__technology_list">
+                            <div class="name__technology_list-item">
+                                <div class="text__info">VSCode</div>
+                                <div class="text__info">WebStorm</div>
+                            </div>
+                            <div class="name__technology_list-item">
+                                <div class="text__info">Figma</div>
+                                <div class="text__info">Node.js</div>
+                            </div>
+                            <div class="name__technology_list-item new_item">
+                                <div class="text__info">Git</div>
+                                <div class="text__info">GitHub</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__skills_technology-db">
+                        <div class="name__technology">
+                            <div class="main__contact_info-text">Databases</div>
+                        </div>
+                        <div class="name__technology_list">
+                            <div class="name__technology_list-item">
+                                <div class="text__info">MySQL</div>
+                                <div class="text__info">Mongo</div>
+                            </div>
+                            <div class="name__technology_list-item">
+                                <div class="text__info">MS SQL Server</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__skills_technology-frameworks">
+                        <div class="name__technology">
+                            <div class="main__contact_info-text">Frameworks</div>
+                        </div>
+                        <div class="name__technology_list">
+                            <div class="name__technology_list-item">
+                                <div class="text__info">React</div>
+                                <div class="text__info">Vue</div>
+                                <div class="text__info">Angular</div>
+                            </div>
+                            <div class="name__technology_list-item">
+                                <div class="text__info">Disnake</div>
+                                <div class="text__info">Discord.js</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__facts">
+                <div class="main__facts_title">
+                    <div class="header__link">
+                        <div class="main__hashtag">#</div>
+                        <div class="main__article">my-fun-facts</div>
+                    </div>
+                </div>
+                <div class="main__facts_items">
+                    <div class="main__facts_items-line">
+                        <div class="main__facts_item">
+                            I like winter more than summer
+                        </div>
+                        <div class="main__facts_item">
+                            I often bike with my friends
+                        </div>
+                    </div>
+
+                    <div class="main__facts_items-line">
+                        <div class="main__facts_item">
+                            I like <span class="main__facts_item-accent">pizza</span> and <span
+                                class="main__facts_item-accent">pasta</span>
+                        </div>
+                        <div class="main__facts_item">
+                            I was in <span class="main__facts_item-accent">Egypt</span>, <span
+                                class="main__facts_item-accent">Poland</span> and <span
+                                class="main__facts_item-accent">Turkey</span>
+                        </div>
+                    </div>
+
+                    <div class="main__facts_items-line">
+                        <div class="main__facts_item">
+                            My favorite movie is <span class="main__facts_item-accent">The Green Mile</span>
+                        </div>
+                        <div class="main__facts_item">
+                            I am still in school
+                        </div>
+                    </div>
+
+                    <div class="main__facts_items-line">
+                        <div class="main__facts_item">
+                            I don’t have any siblings
+                        </div>
+                    </div>
+                </div>
+                <img src="img/Dots.svg" class="dots_group" alt="dots">
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__info">
+                    <div class="footer__data">
+                        <div class="footer__data-mail">
+                            <div class="footer__data-name">
+                                <div class="logo"></div>
+                                <div class="text__info-big">Daria</div>
+                            </div>
+                            <div class="text__info">dashmenko@gmail.com</div>
+                        </div>
+                        <p class="footer__data-job">Front-end developer</p>
+                    </div>
+                    <div class="footer__media">
+                        <div class="footer__media-title">Media</div>
+                        <div class="footer__media-links">
+                            <a href="https://github.com/Dashmenko" target="_blank"><img class="github"
+                                    src="https://c.animaapp.com/r2aK7hMD/img/github-4.svg" alt="github"></a>
+                            <img class="figma" src="https://c.animaapp.com/r2aK7hMD/img/figma-4.svg" alt="figma">
+                            <a href="https://discordapp.com/users/843226588904816660" target="_blank"><img
+                                    class="discord" src="https://c.animaapp.com/r2aK7hMD/img/discord-3.svg" alt="discord"></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer__copy">&copy; Copyright 2023. Made by Daria</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
